@@ -1,11 +1,20 @@
 # Python Tuples
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fresources.stdio.vn%2Fcontent%2Farticle%2Ftim-hieu-ve-tuples-trong-python%2Fthumbnail-hd%2Fblob-1599048317319%401280x720.jpg&f=1&nofb=1)
+
+## Overview
+In this lesson, we'll learn about Python tuples and their proper use cases.
+
 ## Objectives
 
 - Learn proper use of tuple data types
 - How to work with tuples
 - Learn the limitations of tuples
 
+## Getting Started
+- `Fork` and `clone` this repository
+
+___
 ## What Are Tuples
 
 A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
@@ -62,27 +71,47 @@ for word in my_tup:
 Python has the ability to read tuple values:
 
 - Finding Tuples Max Value:
-  - ```py
+
+    ```py
       tup = (1,2,3)
       max(tup) # Returns 3
     ```
 - Finding Tuples Min Value:
-  - ```py
+
+    ```py
       tup = (1,34,21)
       min(tup) # returns 1
     ```
 - Converting Lists Into Tuples:
-  - ```py
+
+    ```py
       my_list = [1,2,3,4]
       new_tup = tuple(my_list)
     ```
+- Converting Tuples Into Lists:
+    
+    ```py
+      my_tup = (1,2,3)
+      my_list = list(my_tup)
+    ```
 - Deleting Tuples:
-  - ```py
+ 
+    ```py
       my_tup = (1,2,3,4)
       del my_tup
       print(my_tup) # my_tup is undefined
     ```
 
+___
 ## You Do
 
 Follow the directions in `main.py`, test your code with `python3 tuple_test.py`.
+
+## Recap
+In this lesson we learned about `tuples` in Python. A few key things to note about tuples:
+- Tuples are immutable, meaning that they cannot be modified or updated
+- Tuples are typically used for data that you want to be secure when passed on to another function or operation
+
+## Resources
+- [Python Tuples](https://www.tutorialspoint.com/python/python_tuples.htm)
+- Article: [Why Use Tuples In Python?](https://python.plainenglish.io/tuples-in-python-why-to-use-them-and-how-you-might-create-them-on-accident-95bde873b062)
