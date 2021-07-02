@@ -4,15 +4,17 @@ def create_tuple(list_of_nums):
 
 
 def get_value(tup):
-    # Return the value in the 3rd index
+    # Return the 3rd value in the provided tuple
     return
 
 
 def get_values(tup):
     # return the values from index 1-3
+    # 3 should be inclusive
     return
 
 
 def get_max(tup):
     # return the largest number in the provided tuple
     return
+
