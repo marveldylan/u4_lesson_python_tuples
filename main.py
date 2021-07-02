@@ -14,5 +14,5 @@ def get_values(tup):
 
 
 def get_max(tup):
-    # return the largets number in the provided tuple
+    # return the largest number in the provided tuple
     return
