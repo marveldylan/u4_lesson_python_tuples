@@ -16,7 +16,7 @@ class Tuple_Test(unittest.TestCase):
         self.assertEqual(main.get_values(self.my_tup), self.my_tup[1:4])
 
     def test_max(self):
-        self.assertEqual(main.get_max(self.my_tup), max(self.test_tup))
+        self.assertEqual(main.get_max(self.test_tup), max(self.test_tup))
 
 
 if __name__ == "__main__":
