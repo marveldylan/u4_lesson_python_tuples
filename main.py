@@ -19,3 +19,14 @@ def get_max(tup):
     # return the largest number in the provided tuple
     return max(tup)
 
+#Notes
+# A tuple in Python is a collection of objects which is ordered and immutable. Tuples cannot be changed. JS does not have a tuple equivalent.
+# Tuples are declared like lists, just using () instead of []:
+# my_tuple = (1,2,3), or new_tup = tuple(), or tuppy = ()
+# tuples can have a mix of datatypes.
+# tuples are iterable and we can access indices/values just like lists.
+# There are also built in methods for tuples, such as finding min and max values, and even converting tuples to lists (and lists to tuples):
+# min(tup) / max(tup)
+# new_tup = tuple(my_list)
+# new_list = list(my_tup)
+# del my_tup
